@@ -27,4 +27,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Registry Update Script
-        run: bash scripts/prepare_registry_update.sh
+        run: python scripts/helper.py
